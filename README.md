@@ -1,1 +1,2 @@
 # 3DTouchShortCutDemo
+6s新增的3DTouch,实现App的快捷点击事件，以及通过iOS9.0新的API获取点击力度
