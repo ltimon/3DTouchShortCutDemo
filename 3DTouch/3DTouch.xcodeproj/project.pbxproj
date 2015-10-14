@@ -18,6 +18,7 @@
 		9D24180F1BCA9DB800D52F29 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24180E1BCA9DB800D52F29 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9D2418111BCAA42800D52F29 /* 02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2418101BCAA42800D52F29 /* 02@2x.png */; settings = {ASSET_TAGS = (); }; };
 		9D2418131BCAA43200D52F29 /* 01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2418121BCAA43200D52F29 /* 01@2x.png */; settings = {ASSET_TAGS = (); }; };
+		9D6CC5FF1BCDF9C900279FDE /* effectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6CC5FE1BCDF9C900279FDE /* effectImage.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		9D24180E1BCA9DB800D52F29 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9D2418101BCAA42800D52F29 /* 02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02@2x.png"; sourceTree = "<group>"; };
 		9D2418121BCAA43200D52F29 /* 01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01@2x.png"; sourceTree = "<group>"; };
+		9D6CC5FE1BCDF9C900279FDE /* effectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effectImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		9D2417DA1BCA9CDC00D52F29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D6CC5FD1BCDF9C900279FDE /* images */,
 				9D2417DB1BCA9CDC00D52F29 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +153,14 @@
 			);
 			path = 3DTouchUITests;
 			sourceTree = "<group>";
+		};
+		9D6CC5FD1BCDF9C900279FDE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9D6CC5FE1BCDF9C900279FDE /* effectImage.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -256,6 +267,7 @@
 			files = (
 				9D2418111BCAA42800D52F29 /* 02@2x.png in Resources */,
 				9D2418131BCAA43200D52F29 /* 01@2x.png in Resources */,
+				9D6CC5FF1BCDF9C900279FDE /* effectImage.png in Resources */,
 				9D2417EA1BCA9CDC00D52F29 /* LaunchScreen.storyboard in Resources */,
 				9D2417E71BCA9CDC00D52F29 /* Assets.xcassets in Resources */,
 				9D2417E51BCA9CDC00D52F29 /* Main.storyboard in Resources */,
